@@ -13,6 +13,13 @@ This API provides endpoints for user registration, login, password reset, change
 4. Open the frontend directory in your code editor.
 5. Ensure that your frontend application (index.html) is set to run on port 5500 using live server.
 
+## Postman Collection
+
+A Postman collection is included in the backend folder for testing the API endpoints.
+
+1. Open Postman and import the provided collection (`ExpressAuthJWTAPI.postman_collection.json`).
+2. Use the collection to test each API endpoint with different scenarios.
+
 ## Routes
 
 ### Public Routes
@@ -71,7 +78,6 @@ This API provides endpoints for user registration, login, password reset, change
 - **Route:** `POST /api/changepassword`
 - **Description:** Change user's password after authentication.
 - **Request Body:**
-  - `old_password`: Current password.
   - `new_password`: New password.
   - `confirm_password`: Confirm new password.
 - **Response:**
